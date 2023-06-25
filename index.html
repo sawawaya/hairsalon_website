@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reassurance|美容院・ヘアサロン</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" id="top">
+            <h1><a href="#">reassurance</a></h1>
+        </div>
+
+        <div class="pc-menu pc">
+            <nav class="global-nav">
+                <ul>
+                        <li><a href="#top">TOP</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#style">STYLE</a></li>
+                        <li><a href="#access">ACCESS</a></li>
+                </ul>
+            </nav>
+
+            <div class="pc-reserve pc">
+                <button class="header-reserve">WEB予約</button>
+                <p class="e-mail">info.xxxxx@reassurance.com</p>
+            </div>
+        </div> 
+
+        <div class="sp-menu sp">
+            <i class="fa-solid fa-bars" id="menu-open"></i>
+        </div>
+
+        <div class="sp-menu-overlay sp">
+            <i class="fa-solid fa-xmark" id="menu-close"></i>
+            <nav class="sp-nav">
+                <ul>
+                    <li><a href="#">TOP</a></li>
+                    <li><a href="#about" data-id="about">ABOUT</a></li>
+                    <li><a href="#menu" data-id="menu">MENU</a></li>
+                    <li><a href="#style" data-id="style">STYLE</a></li>
+                    <li><a href="#access">ACCESS</a></li>
+                </ul>
+                <button class="sp-menu-reserve">WEB予約</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-visual">
+        <div class="main-img">
+            <img src="images/mv.jpg" alt="reassuranceのスタイリストの写真">
+        </div>
+        <h2>reassuranceは、安心と居心地を、あなたに。</h2>
+    </section>
+
+    <section class="sub-images pc">
+        <img src="images/img_sub1.jpg" alt="髪を切る美容師の写真">
+        <img src="images/img_sub2.jpg" alt="髪を切られる人の写真">
+        <img src="images/img_sub3.jpg" alt="店舗を清掃する写真">
+    </section>
+
+    <section class="tab-menu pc">
+        <ul>
+            <li><a href="#about" class="about-tab active" data-id="about">ABOUT</a></li>
+            <li><a href="#menu" class="menu-tab" data-id="menu">MENU</a></li>
+            <li><a href="#style" class="style-tab" data-id="style">STYLE</a></li>
+        </ul>    
+    </section>
+
+    <div class="content about-tab active" id="about">
+        <div class="about-inner">
+            <h2 class="sp">ABOUT</h2>
+            <p>
+            reassuranceは、自由が丘にある美容室です。<br>
+            リラックスして気軽に遊びに来ていただくような<br class="about-intro">
+            雰囲気作りを心がけています。
+            </p>
+            <div class="profile-container">
+                <div class="profile-left">
+                    <img src="images/img_stylist1.jpg" width="283px" alt="トップスタイリストの写真">
+                    <div class="profile">
+                        <p>
+                            トップスタイリスト
+                            <br>
+                            <span>鈴木 秋冬次郎</span>
+                        </p>
+                        <p>
+                            【得意なスタイリング】
+                            <br>
+                            メンズ、ショートカット
+                        </p>
+                    </div>
+                </div>
+                <div class="profile-right">
+                    <img src="images/img_stylist2.jpg" alt="スタイリストの写真">
+                    <div class="profile">
+                        <p>
+                            スタイリスト
+                            <br>
+                            <span>山田 春夏江</span>
+                        </p>
+                        <p>
+                            【得意なスタイリング】
+                            <br>
+                            可愛い雰囲気、パーマ
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content menu-tab" id="menu">
+        <div class="menu-inner">
+            <h2 class="sp">MENU</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>カット</td>
+                        <td class="interval">・・・・・・</td>
+                        <td>3,000円</td>
+                    </tr>
+                    <tr>
+                        <td>カラー</td>
+                        <td class="interval">・・・・・・</td>
+                        <td>5,000円</td>
+                    </tr>
+                    <tr>
+                        <td>パーマ</td>
+                        <td class="interval">・・・・・・</td>
+                        <td>6,000円</td>
+                    </tr>
+                    <tr>
+                        <td>トリートメント</td>
+                        <td class="interval">・・・・・・</td>
+                        <td>3,000円</td>
+                    </tr>
+                    <tr>
+                        <td>ヘアメイク</td>
+                        <td class="interval">・・・・・・</td>
+                        <td>5,000円</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <div class="content style-tab" id="style">
+        <div class="style-inner">
+            <h2 class="sp">STYLE</h2>
+            <div class="style-prev-pc pc prev disappear">
+                <button>&laquo;</button>
+            </div>    
+            <div class="style1">
+                <img src="images/img_style1.jpg" alt="ヘアスタイル1">
+                <img src="images/img_style2.jpg" alt="ヘアスタイル2">
+                <img src="images/img_style3.jpg" alt="ヘアスタイル3">
+                <img src="images/img_style4.jpg" alt="ヘアスタイル4">
+                <img src="images/img_style5.jpg" alt="ヘアスタイル5">
+                <img src="images/img_style6.jpg" alt="ヘアスタイル6">
+            </div>
+                <div class="style-next-pc pc next">
+                    <button>&raquo;</button>
+                </div>
+            <div class="style2 disappear">
+                <img src="images/img_style7.jpg" alt="ヘアスタイル7">
+                <img src="images/img_style8.jpg" alt="ヘアスタイル8">
+                <img src="images/img_style9.jpg" alt="ヘアスタイル9">
+                <img src="images/img_style10.jpg" alt="ヘアスタイル10">
+                <img src="images/img_style11.jpg" alt="ヘアスタイル11">
+                <!-- <img src="images/img_style12.jpg" alt="ヘアスタイル12"> -->
+            </div>
+            <p class="style-add-sp sp">and more...</p>
+        </div>
+    </div>
+
+    <section class="access" id="access">
+        <div class="access-inner">
+            <h2>ACCESS</h2>
+            <div class="access-flex">
+                <div class="address-inner">
+                    <p>
+                        〒000-0000
+                        <br>
+                        東京都目黒区自由が丘○丁目○○-○
+                        <br>
+                        ○○○○○○1F
+
+                        <div class="station">
+                            <p>
+                                東横線・大井町線
+                                <br>
+                                「自由が丘」駅より徒歩5分
+                            </p>
+                        </div>
+                    </p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.829297701158!2d139.6660858114806!3d35.60727713391857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f51f0e7b7329%3A0xc0f96ebbd79be0a3!2z6Ieq55Sx44GM5LiY6aeF!5e0!3m2!1sja!2sjp!4v1687243067357!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-left">
+                <h1><a href="#">reassurance</a></h1>
+                <p>
+                    TEL: 00-0000-0000
+                    <br>
+                    e-mail: info.xxxxx@reassurance.com
+                    <br>
+                    OPEN: 9:00〜20:00(19:00最終受付)
+                    <br>
+                    CLOSE: 水曜日、年末年始
+                </p>
+            </div>
+            <div class="footer-right">
+                <button class="footer-reserve">WEB予約</button>
+                <p>&copy; 2021 reassurance</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

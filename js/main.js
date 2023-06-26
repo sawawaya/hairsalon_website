@@ -110,11 +110,10 @@
         open.classList.add('hide');
     });
 
-    close.addEventListener('click', () => {
+    overlay.addEventListener('click', () => {
         overlay.classList.remove('show');
         open.classList.remove('hide');
     });
-
 
     // ヘアスタイルの追加
     const style2 = document.querySelector('.style2');
